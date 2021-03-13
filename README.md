@@ -4,6 +4,6 @@
 `set +o vi`
 to learn more about flags use `set --help`
 
-## Ok above solution works only for one session, in order to set it permanentaly 
+## Ok above solution works only for one session, in order to set it permanently 
 ## you have to modify the `bashrc` or `bash_profile` 
 
