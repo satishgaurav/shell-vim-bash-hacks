@@ -29,11 +29,11 @@ set number      " display line number
 ```
 
 ### I have also enabled the vim mode in bash shell 
-Now the the key binding does work by defaulte by just settng the vi mode\
+Now the the key binding does work by defaulte by just settng the vi mode \
 by the way you can vi mode using `set -o vi` and disable it using command `set +o vi` 
 
-However the above solution only works for one session in order to bring the change to all the session\
-you have modify `.bashrc` or `.bash_profile` file present on the home directory. you can reach home\ 
+However the above solution only works for one session in order to bring the change to all the session \
+you have modify `.bashrc` or `.bash_profile` file present on the home directory. you can reach home \ 
 using the command `cd ~` now list all files using command `ls -a` 
 
 ```bash
@@ -42,6 +42,11 @@ using the command `cd ~` now list all files using command `ls -a`
 set -o vi
 bind '"ii":vi-movement-mode'
 ```
+
+Now I have done it only the basic modification. If you want to modify extra things \ 
+then these linkes can be useful 
+[1.](https://unix.stackexchange.com/questions/303282/in-bash-vi-mode-map-jk-to-exit-insert-mode)
+[2.](https://stackoverflow.com/questions/6839006/map-jj-to-esc-in-inputrc-readline)
 
 
 
