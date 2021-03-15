@@ -43,10 +43,10 @@ set -o vi
 bind '"ii":vi-movement-mode'
 ```
 
-Now I have done it only the basic modification. If you want to modify extra things \ 
+Now I have done it only the basic modification. If you want to modify extra things <br/>
 then these linkes can be useful 
-[1.](https://unix.stackexchange.com/questions/303282/in-bash-vi-mode-map-jk-to-exit-insert-mode)
-[2.](https://stackoverflow.com/questions/6839006/map-jj-to-esc-in-inputrc-readline)
+1. https://unix.stackexchange.com/questions/303282/in-bash-vi-mode-map-jk-to-exit-insert-mode
+2. https://stackoverflow.com/questions/6839006/map-jj-to-esc-in-inputrc-readline
 
 
 
