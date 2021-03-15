@@ -10,12 +10,12 @@ to learn more about flags use `set --help`
 
 ### My vimrc file 
 vimrc file path: ~.vim/vimrc \n
-this can be reached via `cd ~` take me to the home folder \n
-`.file` or `.directory` can't be seen by just vi `ls` command \n
-in order to list all files run `ls -a` \n
+this can be reached via `cd ~` take me to the home folder \
+`.file` or `.directory` can't be seen by just vi `ls` command \
+in order to list all files run `ls -a` \
 
-now go to **.vim** folder and open **vimrc** file \n
-go to edit mode and edit the file as you wish \n
+now go to **.vim** folder and open **vimrc** file \
+go to edit mode and edit the file as you wish \
 ```vim
 " Custom Vim configuration 
 
