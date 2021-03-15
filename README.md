@@ -12,10 +12,10 @@ to learn more about flags use `set --help`
 vimrc file path: ~.vim/vimrc \n
 this can be reached via `cd ~` take me to the home folder \
 `.file` or `.directory` can't be seen by just vi `ls` command \
-in order to list all files run `ls -a` \
+in order to list all files run `ls -a`  
 
 now go to **.vim** folder and open **vimrc** file \
-go to edit mode and edit the file as you wish \
+go to edit mode and edit the file as you wish  
 ```vim
 " Custom Vim configuration 
 
@@ -27,6 +27,22 @@ set ignorecase  " do case insensitive search
 set incsearch   " show incremental search results as you type
 set number      " display line number
 ```
+
+### I have also enabled the vim mode in bash shell 
+Now the the key binding does work by defaulte by just settng the vi mode\
+by the way you can vi mode using `set -o vi` and disable it using command `set +o vi` 
+
+However the above solution only works for one session in order to bring the change to all the session\
+you have modify `.bashrc` or `.bash_profile` file present on the home directory. you can reach home\ 
+using the command `cd ~` now list all files using command `ls -a` 
+
+```bash
+## this will keep the vim mode enabled in git bash 
+## to turn-off mode change "-" to "+".
+set -o vi
+bind '"ii":vi-movement-mode'
+```
+
 
 
 
