@@ -9,7 +9,7 @@ to learn more about flags use `set --help`
 
 
 ### My vimrc file 
-vimrc file path: ~.vim/vimrc \n
+vimrc file path: ~.vim/vimrc  <br /> 
 this can be reached via `cd ~` take me to the home folder \
 `.file` or `.directory` can't be seen by just vi `ls` command \
 in order to list all files run `ls -a`  
@@ -28,8 +28,9 @@ set incsearch   " show incremental search results as you type
 set number      " display line number
 ```
 
-### I have also enabled the vim mode in bash shell 
-Now the the key binding does work by defaulte by just settng the vi mode \
+### My .bash_profile file 
+I have also enabled the vim mode in bash shell. 
+Now the the key binding does work by default by just setting up vi mode \
 by the way you can vi mode using `set -o vi` and disable it using command `set +o vi` 
 
 However the above solution only works for one session in order to bring the change to all the session \
