@@ -1,8 +1,11 @@
 ## The installtion didnot work on the macOS, Finally i am using wsl on windows. So it only works on Linux 
 DeepChem has many depencdency package. Along with installing others you have to install these packages too. 
 
+#### make sure that you have activated the correct env
+`pip install -q mdtraj nglview`
 `conda install -c omnia openmm`
 `conda install -c omnia pdbfixer`
+`conda install -c conda-forge networkx`
 
 
 
