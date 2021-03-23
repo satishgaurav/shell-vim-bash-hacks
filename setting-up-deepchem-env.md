@@ -1,3 +1,15 @@
+## The installtion didnot work on the macOS, Finally i am using wsl on windows. So it only works on Linux 
+DeepChem has many depencdency package. Along with installing others you have to install these packages too. 
+
+`conda install -c omnia openmm`
+`conda install -c omnia pdbfixer`
+
+
+
+
+
+
+
 # Update 
 Initially I had installed python version 3.7 however i think it doesnot support python version greater > 3.7, i have python version python 3.7.10 now i have downgrade the python version. 
 
